@@ -2,7 +2,7 @@
 
 The Testimonial Slider Plugin enhances your WordPress site by showcasing customer testimonials in an attractive, responsive slider. It utilizes Advanced Custom Fields (ACF) for easy testimonial management, creating a seamless user experience.
 
-![Plugin Demo](assets/demo.gif)
+![Plugin Demo](assets/preview.gif)
 
 ## Features
 
