@@ -72,14 +72,14 @@ add_shortcode('testimonials', 'display_testimonials_shortcode');
 
 
 function testimonials_showcase_styles() {
-   wp_enqueue_style('testimonials-showcase-style', plugins_url('/css/style.css', __FILE__));
+   wp_enqueue_style('testimonials-showcase-style', plugins_url('/assets/css/style.css', __FILE__));
 }
 add_action('wp_enqueue_scripts', 'testimonials_showcase_styles');
 
 
 function testimonials_showcase_scripts() {
     // Register the script like this for a plugin:
-    wp_register_script('testimonial-slider-script', plugins_url('/js/testimonial-slider.js', __FILE__), array('jquery'), '1.0', true);
+    wp_register_script('testimonial-slider-script', plugins_url('/assets/js/testimonial-slider.js', __FILE__), array('jquery'), '1.0', true);
 
     // For either a plugin or a theme, you can then enqueue the script:
     wp_enqueue_script('testimonial-slider-script');
